@@ -4,7 +4,6 @@
 //
 //This file & functions are combined with another Javascript file to create the functions that help run the extension. 
 //
-//However, you only need to modify this file/functions. 
 //----------------------------------------------
 
 function setExampleListeners(){
