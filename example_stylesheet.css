@@ -1,0 +1,45 @@
+.BlueButton{
+	color:blue !important; 
+	border-color:blue !important; 
+	display:none; 
+} 
+.BlueButton:hover{
+	color:blue !important; 
+	border-color:blue !important; 
+	background:blue !important; 
+	color:#FFFFFF !important; 
+} 
+.buttonDropdown {
+    position: relative; 
+    display: inline-block; 
+	float:right; 
+}
+.buttonDropdown-content {    
+	right:0; 
+	display: none; 
+    position: absolute; 
+    background-color: #f9f9f9; 
+    min-width: 160px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    z-index: 1; 
+}
+.buttonDropdown-content a {    
+	color: black; 
+    padding: 12px 16px; 
+    text-decoration: none; 
+    display: block; 
+}
+
+.buttonDropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+/*.bigbutton is defined by Connect*/
+
+.smallbutton{
+font-size: x-small!important;
+}
+
+.show {
+	display:block; 
+} 

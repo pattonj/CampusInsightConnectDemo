@@ -1,0 +1,41 @@
+{
+
+  "manifest_version": 2,
+  "name": "Sample Extension for Connect",
+  "version": "1.0",
+  "author": "Jacob Patton",
+  "description": "Used to Demonstrate the potential of Javascript and Connect.",
+  
+
+
+  "icons": {
+    "48": "icons/icon_48.png",
+	"96": "icons/icon_96.png",
+	"128": "icons/icon_128.png"
+  },  
+  
+  "permissions": [
+    "tabs"
+],
+  
+     "browser_action": {
+    "browser_style": true,
+	"default_icon": "icons/icon_48.png",
+    "default_title": "Sample Extension for Connect"
+  },
+  
+   "background": {
+    "scripts": ["about.js"]
+	},
+
+    "content_scripts": [
+    {
+      "matches": ["*://*.askadmissions.net/admin/Contacts/*"],
+	  "js": ["example_functions.js","example_main_functions.js"],
+	  "css":["example_stylesheet.css"]
+    }
+  ]
+  
+
+
+}	

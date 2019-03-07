@@ -1,0 +1,11 @@
+{
+  "addons": {
+    "{YOUR UNIQUE ID GOES HERE}": {
+      "updates": [
+        { "version": "VERSION NUMBER GOES HERE",
+          "update_link": "THE URL TO THE CURRENT PLUGIN/EXTENSION file." }
+        
+      ]
+    }
+  }
+}
