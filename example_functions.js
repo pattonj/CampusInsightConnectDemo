@@ -214,6 +214,8 @@ function sampleHighlightFunction(x){
 	//2 is used when in edit mode.
 	// Should be combined with listener that, if field, in our example state, is changed, it re-runs the sampleHighlightFunction. 
 	if (x==2){
+		
+		checkInnerText=document.getElementById("state").value;
 			
 		//If it's not equal to KY, set background color to red. 
 		if(checkInnerText != "KY" && checkInnerText != "" ){
